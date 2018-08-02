@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PocIntentTest</string>
+    <string name="activity_main_text_other">Other</string>
+    <string name="activity_main_text_browser">Browser</string>
+    <string name="activity_main_text_call">call</string>
+    <string name="activity_main_text_phone_number">Type phone number</string>
+    <string name="contacts_activity_placeholder">
+        This a placeholder Activity for a contacts screen.
+        This activity is never opened and does not contain any real contact data for
+        keeping this sample simple and focused.
+    </string>
+    <string name="activity_other_text_title">Other</string>
+    <string name="activity_contact_text_title">Contact</string>
+    <string name="activity_main_text_pick_number">Pick Number</string>
+    <string name="activity_main_text_clear">Clear</string>
+</resources>

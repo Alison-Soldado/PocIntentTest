@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.example.android.pocintenttest.MainActivity">
+
+    <EditText
+        android:id="@+id/activity_main_text_type_number"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:hint="@string/activity_main_text_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/activity_main_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToOther"
+        android:layout_marginTop="@dimen/activity_vertical_margin_components"
+        android:text="@string/activity_main_text_other"/>
+
+    <Button
+        android:id="@+id/activity_main_browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToBrowser"
+        android:text="@string/activity_main_text_browser"/>
+
+    <Button
+        android:id="@+id/activity_main_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToCall"
+        android:text="@string/activity_main_text_call"/>
+
+    <Button
+        android:id="@+id/activity_main_call_pick_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToCallPickNumber"
+        android:text="@string/activity_main_text_pick_number"/>
+
+    <Button
+        android:id="@+id/activity_main_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clearField"
+        android:text="@string/activity_main_text_clear"/>
+</LinearLayout>
